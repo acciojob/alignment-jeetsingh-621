@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+        /* Center the heading */
+        h1 {
+            text-align: center;
+        }
+        /* Table styles */
+        table {
+            border-collapse: collapse;
+            border: 1px solid black;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 1px;
+            text-align: left;
+        }
+        /* Class for middle-aligned tables */
+        .middle {
+            margin: 0 auto;
+        }
+        /* Center class for table cells */
+        .center {
+            text-align: center;
+        }
+        /* Right-aligned class for table cells */
+        .right {
+            text-align: right;
+        }
+        /* Background color for green and blue classes */
+        .green {
+            background-color: green;
+            color: white;
+        }
+        .blue {
+            background-color: blue;
+            color: white;
+        }
